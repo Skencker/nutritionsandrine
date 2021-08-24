@@ -1,38 +1,45 @@
-.App {
-  text-align: center;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+    font-family: 'Montserrat', sans-serif;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+:root {
+    --noir : #090c10;
+    --rose-fonce : #c55362;
+    --rose-clair : #f7e7ed;
+    --violet : #825566;
+    --gris-vert : #55574e;
+    --gris-fonce : #878585;
+    --gris-clair : #e5e5e5;
+    --blanc : #ffffff;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+#noir {
+    background-color: var(--noir);
 }
-
-.App-link {
-  color: #61dafb;
+#rose-fonce {
+    background-color: var(--rose-fonce);
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#rose-clair {
+    background-color: var(--rose-clair);
+}
+#violet {
+    background-color: var(--violet);
+}
+#gris-vert {
+    background-color: var(--gris-vert);
+}
+#gris-fonce {
+    background-color: var(--gris-fonce);
+}
+#gris-clair {
+    background-color: var(--gris-clair);
+}
+#blanc {
+    background-color: var(--blanc);
 }

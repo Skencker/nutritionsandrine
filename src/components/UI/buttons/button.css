@@ -1,0 +1,39 @@
+.btn-inscrire {
+    /* background-color: var(--rose-fonce); */
+	border-radius:28px;
+	display:inline-block;
+    border: none;
+	cursor:pointer;
+	color:#ffffff;
+	font-size:25px;
+	padding:10px 25px;
+	text-decoration:none;
+    box-shadow: 2px 2px 5px 1px var(--noir);
+	/* margin-bottom: 200px; */
+}
+
+.btn-inscrire:hover {
+	background-color: var(--gris-vert);
+	
+}
+.btn-inscrire:active {
+	position:relative;
+	top:1px;
+}
+
+@media screen and (max-width: 990px) {
+	.btn-inscrire {
+		margin-top: 0;
+		margin-left: 250px;
+		margin-bottom: 0px;
+    } 
+}
+
+@media screen and (max-width: 520px){
+	.btn-inscrire {
+		font-size: 12px;
+		padding:12px 21px;
+		margin-left: 0px;
+		margin-bottom: 0px;
+	} 
+}

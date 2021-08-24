@@ -1,0 +1,11 @@
+.titreh1 {
+    font-family: 'Racing Sans One', cursive;
+    background-image: url('../../../assets/images/cerise.jpg');
+    background-attachment: fixed;
+    text-align: center;
+    font-size: 70px;
+    height: 90PX;
+    color: var(--blanc);
+    text-transform: capitalize;
+    z-index: 10;
+}
